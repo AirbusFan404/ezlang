@@ -1,0 +1,15 @@
+modules = ["python-3.12"]
+
+[agent]
+expertMode = true
+
+[env]
+HOME = "/home/runner/workspace"
+PATH = "/home/runner/workspace/.venv/bin"
+PYTHONPATH = "/home/runner/workspace/.venv/lib/python3.13/site-packages"
+PYTHONUSERBASE = "/home/runner/workspace/.venv"
+UV_PROJECT_ENVIRONMENT = "/home/runner/workspace/.venv"
+
+[packager.features]
+guessImports = false
+packageSearch = false

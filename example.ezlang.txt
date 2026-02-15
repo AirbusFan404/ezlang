@@ -1,0 +1,7 @@
+/Hello, wo[hello!:]rld!/
+
+Getting your input>+Getting your input again>-<
++<
+
+Short pause\.\.\..
+Long pause\.\.\.:

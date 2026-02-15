@@ -1,0 +1,19 @@
+[project]
+name = "ezlang"
+version = "0.0.1"
+authors = [
+    { name = "Isaac", email = "166333153+AirbusFan404@users.noreply.github.com" }
+]
+requires-python = ">=3.10"
+dependencies = ["click", "colorama", "typing-extensions"]
+license = { file = "LICENSE" }
+readme = "README.md"
+
+[project.scripts]
+ezlang = "ezlang.__main__:ezlang"
+ezlangc = "ezlang.__main__:ezlangc"
+ezlangd = "ezlang.__main__:ezlangd"
+
+[build-system]
+requires = ["uv_build>=0.9.24,<0.10.0"]
+build-backend = "uv_build"
